@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>About Rural Hub</title>
+	<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      crossorigin="anonymous"
+    />
+<style>
+body::-webkit-scrollbar{
+	display: none;
+}
+
+.nav1{
+	position: relative;
+     /* background-image: url("indbg2.jpg"); */
+}
+
+.nav1 .logos{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: transparent;
+}
+
+ul{
+	position: fixed;
+	top: 10%;
+	left: 74%;
+	transform: translate(-50%,-50%);
+	margin: 0;
+	padding: 20px 0;
+	background: #fff;
+	display: flex;
+	border-radius: 10px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+	opacity: 65%;
+}
+
+ul li{
+	list-style: none;
+	text-align: center;
+	display: block;
+	border-right: 1px solid rgba(0,0,0,0.2);
+}
+
+ul li:last-child{
+	border-right: none;
+}
+
+ul li a{
+	text-decoration: none;
+	padding: 0 50px;
+	display: block;
+}
+
+ul li a .icon{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	overflow: hidden;
+	margin: 0 auto 10px;
+}
+
+
+ul li a .icon .fa{
+	width: 100%;
+	height: 100%;
+  line-height: 40px;
+  font-size: 34px;
+  transition: 0.5s;
+  color: #000;
+}
+
+ul li a .icon .fas{
+	width: 100%;
+	height: 100%;
+  line-height: 40px;
+  font-size: 34px;
+  transition: 0.5s;
+  color: #000;
+}
+
+ul li a:hover .icon .fa{
+	transform: translateY(-100%);
+}
+
+ul li a:hover .icon .fas{
+	transform: translateY(-100%);
+}
+
+ul li a:hover .icon .fa:last-child{
+	color: #e91e63;
+}
+
+ul li a:hover .icon .fas:last-child{
+	color: #e91e63;
+}
+
+ul li a .name{
+	position: relative;
+	height: 20px;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+}
+
+ul li a .name span{
+	display: block;
+	position: relative;
+	color: #000;
+	font-size: 18px;
+	line-height: 20px;
+	transition: 0.5s;
+
+}
+
+ul li a .name span:before{
+	content: attr(data-text);
+	position: absolute;
+	top: -100%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	color: #e91e63;
+}
+
+ul li a:hover .name span{
+	transform: translateY(20px);
+} 
+
+
+.logos .right{
+	float: left;
+	padding: 30px 10px;
+	width: 25%;
+	margin: 0px 10px;
+}
+
+.About .boxed {
+  border: 1px solid green ;
+
+}
+
+#shape{
+	border-radius: 50%;
+}
+
+</style>
+</head>
+<body background="expbg.jpg">
+<div class="nav1">	
+	<ul>
+		<li>
+			<a href="#">
+				<div class="icon">
+					<i class="fa fa-info" aria-hidden="true"></i>
+					<i class="fa fa-info" aria-hidden="true"></i>
+
+				</div>
+				<div class="name"><span data-text="About us">About Us</span></div>
+			</a>
+		</li>
+		<li>
+			<a href="#">
+				<div class="icon">
+					<i class="fas fa-image"></i>
+					<i class="fas fa-image"></i>
+				</div>
+				<div class="name"><span data-text="portfolio">Portfolio</span></div>
+			</a>
+		</li>
+	
+		<li>
+			<a href="#">
+				<div class="icon">
+					<i class="fas fa-cogs"></i>
+					<i class="fas fa-cogs"></i>
+				</div>
+				<div class="name"><span data-text="services">Services</span></div>
+			</a>
+		</li>
+	
+		<li>
+			<a href="#">
+				<div class="icon">
+					<i class="fas fa-rupee-sign"></i>
+					<i class="fas fa-rupee-sign"></i>
+				</div>
+				<div class="name"><span data-text="pricing">Pricing</span></div>
+			</a>
+		</li>
+	
+		<li>
+			<a href="#">
+				<div class="icon">
+					<i class="fa fa-id-badge" aria-hidden="true"></i>
+					<i class="fa fa-id-badge" aria-hidden="true"></i>
+				</div>
+				<div class="name"><span data-text="contact us">Contact US</span></div>
+			</a>
+		</li>
+	</ul>
+
+	<div class="logos">
+		<div class="logo right">
+         <img src="logo.jpg" width="70px" height="auto" alt="Avatar" id="shape" align="left">
+          <h1><p style="color:orangered;" ><i style="font-family:serif;"><j style="font-size: 40px;"> Rural <span style="color: yellow;">Hub</span> </j></i></p></h1></div></div>
+</div>
+<div class="Aboutus-content">
+	<h1>About US</h1>
+	
+</div>
+<!--<footer>
+<div class="main-content">
+  <div class="left box">
+          <h2><span style="color:orangered;">Rural</span> Hub</h1>
+    <div class="content">
+          <m>“Rural Hub” is a shared office space, rented for companies who is having corporate office in major cities and wish to have their employees working out of their home town. This space will have all the basic infrastructure and amenities for an employee to work peacefully and efficiently. This facilities are available only in the rural towns.</m>
+     <div class="social">
+        <a href="#"><i class="fab fa-facebook-f"></i></a> 
+        <a href="#"><i class="fab fa-twitter"></i></a>  
+        <a href="https://www.instagram.com/dobby_lol/"><i class="fab fa-instagram"></i></a>  
+        <a href="#"><i class="fab fa-youtube"></i></a>  
+    </div>
+  </div>
+ </div>
+   <div class="center box">
+     <h2>Address</h2>
+     <div class="content">
+      <div class="place">
+        <span class="fas fa-map-marked-alt"></span>
+        <span class="text">Benz circle, Vijayawada, Andhra pradesh</span>
+     </div><br>
+      <div class="phone">
+        <span class="fas fa-phone-alt"></span>
+        <span class="text">+91 9502800633</span>
+      </div>
+      <div class="email"><br>
+        <span class="far fa-envelope"></span>
+        <span class="text">ruralhub@ruralhub.com</span>
+      </div>
+    </div>
+   </div>
+   <div class="right box">
+     <h2> Contact Us</h2>
+     <div class="content">
+       <form action="#">
+         <div class="email">
+           <div class="text">Email *</div>
+           <input type="email" required>
+         </div><br>
+         <div class="msg">
+           <div class="text">Message *</div>
+           <textarea rows="2" cols="25" required></textarea>
+         </div>
+         <div class="button1">
+           <button type="submit">Send</button>
+         </div>
+       </form>
+     </div>
+   </div>
+  <div class="footer-bottom">
+    &copy; ruralhub.com | Designed by Preethi Motepalli & B Surendra
+  </div>
+</div>
+</footer>-->
+</body>
+
+</html>
